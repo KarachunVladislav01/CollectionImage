@@ -10,4 +10,22 @@ import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
+    @IBOutlet weak var imageView: UIImageView!
+    
+    
+    func changeActivityIndicator( flag: Bool) -> Bool {
+        
+        var flag = flag
+        if !flag {
+            activityIndicator.startAnimating()
+            flag = true
+        }else{
+            activityIndicator.stopAnimating()
+            flag = false
+        }
+        return flag
+        
+    }
 }

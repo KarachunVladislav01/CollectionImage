@@ -14,6 +14,7 @@
 		863C1DDC206D9A8600592F7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 863C1DDA206D9A8600592F7D /* LaunchScreen.storyboard */; };
 		863C1DE7206D9A8700592F7D /* CollectionImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1DE6206D9A8700592F7D /* CollectionImageTests.swift */; };
 		863C1DF2206D9A8700592F7D /* CollectionImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1DF1206D9A8700592F7D /* CollectionImageUITests.swift */; };
+		863C1E00206DB45700592F7D /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863C1DFF206DB45700592F7D /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		863C1DED206D9A8700592F7D /* CollectionImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		863C1DF1206D9A8700592F7D /* CollectionImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionImageUITests.swift; sourceTree = "<group>"; };
 		863C1DF3206D9A8700592F7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		863C1DFF206DB45700592F7D /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				863C1DD1206D9A8600592F7D /* AppDelegate.swift */,
 				863C1DD3206D9A8600592F7D /* ViewController.swift */,
 				863C1DD5206D9A8600592F7D /* Main.storyboard */,
+				863C1DFF206DB45700592F7D /* CustomCollectionViewCell.swift */,
 				863C1DD8206D9A8600592F7D /* Assets.xcassets */,
 				863C1DDA206D9A8600592F7D /* LaunchScreen.storyboard */,
 				863C1DDD206D9A8600592F7D /* Info.plist */,
@@ -188,7 +191,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Vladislav;
 				TargetAttributes = {
 					863C1DCD206D9A8600592F7D = {
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				863C1DD4206D9A8600592F7D /* ViewController.swift in Sources */,
+				863C1E00206DB45700592F7D /* CustomCollectionViewCell.swift in Sources */,
 				863C1DD2206D9A8600592F7D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
